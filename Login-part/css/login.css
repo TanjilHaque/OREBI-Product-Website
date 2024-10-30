@@ -67,6 +67,131 @@ html{
 
 /* ===================================Login CSS====================================== */
 
+#loginPart {
+  padding: 124px 0 140px 0;
+}
+
+.loginBreadcrumb__title {
+  font-size: 48px;
+  font-weight: 700;
+  color: #262626;
+}
+
+.login__hamburger{
+    color: #262626;
+    font-weight: 700;
+}
+
+.login__text {
+  font-size: 12px;
+  font-weight: 400;
+  color: #6d6d60;
+  padding: 12px 0 128px 0;
+}
+
+.login__summery {
+  font-size: 12px;
+  font-weight: 400;
+  color: #6d6d60;
+  padding-bottom: 56px;
+}
+
+.login__customer {
+  font-size: 40px;
+  font-weight: 700;
+  color: #262626;
+  padding-bottom: 42px;
+}
+
+.loginForm__title {
+  font-size: 18px;
+  font-weight: 700;
+  color: #262626;
+}
+
+.loginForm__summery {
+  width: 100%;
+  padding: 10px 0 16px 0;
+  font-size: 14px;
+  font-weight: 400;
+  color: #767676;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.loginButton {
+  background-color: transparent;
+  border: 1px solid #2b2b2b;
+  margin-top: 32px;
+  transition: all ease-in-out .5s;
+  -webkit-transition: all ease-in-out .5s;
+  -moz-transition: all ease-in-out .5s;
+  -ms-transition: all ease-in-out .5s;
+  -o-transition: all ease-in-out .5s;
+}
+
+.loginButton__title {
+  font-size: 14px;
+  font-weight: 700;
+  color: #262626;
+  padding: 16px 78px;
+}
+
+.loginButton:hover {
+  background-color: #262626;
+  color: #ffffff;
+}
+
+.loginButton:hover .loginButton__title {
+  color: #ffffff;
+}
+
+.loginPartition {
+  padding: 70px 0 0 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.login__newCustomer {
+  font-size: 40px;
+  font-weight: 700;
+  color: #262626;
+  padding: 58px 0 38px 0;
+}
+
+.login__newSummery {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #6d6d60;
+  padding-bottom: 56px;
+}
+
+.login__newButton{
+    background-color: transparent;
+    border: 1px solid #2b2b2b;
+    transition: all ease-in-out .5s;
+    -webkit-transition: all ease-in-out .5s;
+    -moz-transition: all ease-in-out .5s;
+    -ms-transition: all ease-in-out .5s;
+    -o-transition: all ease-in-out .5s;
+}
+
+.login__newTitle{
+    font-size: 14px;
+    font-weight: 700;
+    color: #262626;
+    padding: 16px 72px; 
+}
+
+.login__newButton:hover{
+    background-color: #262626;
+}
+
+.login__newButton:hover .login__newTitle {
+    color: #ffffff;
+}
+
 /* ===================================Login CSS====================================== */
 
 
