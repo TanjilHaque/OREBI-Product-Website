@@ -55,18 +55,192 @@ html {
 
 
 /* ===================================Navbar CSS====================================== */
-
+#navbarSection{
+    padding: 31px 0;
+    background-color: var(--whiteColor);
+}
+.customNavMenu{
+    display: flex;
+    gap: 40px;
+}
+.customNavMenu li a{
+    font-family: var(--dmSans);
+    font-size: 14px;
+    line-height: 18.23px;
+    font-weight: 400;
+    color: var(--greyTextColor);
+    transition: 0.5s ease-in-out;
+}
+.customNavMenu li a:hover{
+    font-weight: 700;
+    color: var(--blackColor);
+}
 /* ===================================Navbar CSS====================================== */
 
 
 
 /* ===================================Category CSS====================================== */
+#category{
+    padding: 25px 0;
+    background-color: var(--creamColor);
+}
 
+.categoryWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.categoryWrapperSortList{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 11px;
+}
+.categoryWrapperSortList__title{
+    font-family: var(--dmSans);
+    font-size: 14px;
+    line-height: 18.23px;
+    font-weight: 400;
+    color: var(--blackColor);
+}
+.categoryWrapperSearchArea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.categoryWrapperSearchArea__box{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    padding-right: 400px;
+    text-align: start;
+    border: none;
+}
+.categoryWrapperSearchArea__icon {
+    position: absolute;
+    top: 19px;
+    right: 16px;
+    font-size: 20px;
+}
+.categoryWrapperSearchArea__box::placeholder{
+    font-family: var(--dmSans);
+    font-size: 14px;
+    line-height: 18.23px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: rgba(196, 196, 196, 1);
+    width: 100%;
+}
+.categoryWrapperBuyer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 41px;
+}
+
+.category--icon{
+    color: var(--blackColor);
+}
 /* ===================================Category CSS====================================== */
 
 
 
 /* ===================================Hero CSS====================================== */
+#hero{
+    position: relative;
+    padding-top: 201px;
+    padding-bottom: 148px;
+}
+
+.overlayBackround{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.heroWrapper{
+    display: flex;
+    align-items: center;
+    gap: 111px;
+}
+.heroWrapperNavigator{
+    position: relative;
+    font-family: var(--dmSans);
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 13.02px;
+}
+
+.heroWrapperNavigator::before{
+    position: absolute;
+    content: '';
+    top: 0;
+    right: -10px;
+    width: 2px;
+    height: 120px;
+    background-color: var(--whiteColor);
+}
+.heroWrapperNavigator::after{
+    position: absolute;
+    content: '';
+    top: 0;
+    right: -10px;
+    width: 2px;
+    height: 30px;
+    background-color: var(--blackColor);
+}
+
+.heroWrapperContent__title{
+    font-family: var(--dmSans);
+    font-weight: 700;
+    font-size: 49px;
+    line-height: 63.8px;
+    color: var(--blackColor);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 33px;
+}
+
+.heroWrapperContent__summary{
+    font-family: var(--dmSans);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.83px;
+    color: var(--lightTextColor);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.summary--bold{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52.08px;
+    color: var(--blackColor);
+    vertical-align: middle;
+    margin: 0 8px;
+}
+
+.heroWrapperContent__btn{
+    padding: 16px 59px;
+    border: none;
+    background-color: var(--blackColor);
+    color: var(--whiteColor);
+    font-family: var(--dmSans);
+    font-size: 14px;
+    line-height: 18.23px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-top: 49px;
+    transition: 0.5s ease-in-out;
+}
+
+.heroWrapperContent__btn:hover{
+    background-color: var(--greyTextColor);
+    color: var(--blackColor);
+}
+
 
 /* ===================================Hero CSS====================================== */
 

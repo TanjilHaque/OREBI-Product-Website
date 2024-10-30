@@ -43,19 +43,102 @@
 
 <body>
     <!-- =================================Navbar-Markup================================= -->
+    <nav class="navbar navbar-expand-lg" id="navbarSection">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="./images/Navbar__Logo.png" alt="./images/Navbar__Logo.png">
+            </a>
 
+            <!-- ******************toggle Button****************** -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- ******************toggle Button****************** -->
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto customNavMenu">
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Shop</a>
+                    </li>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Contacts</a>
+                    </li>
+                    <li>
+                        <a href="#">Journal</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
     <!-- =================================Navbar-Markup================================= -->
 
 
 
     <!-- =================================Category-Markup================================= -->
-
+    <section id="category">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="categoryWrapper">
+                        <div class="categoryWrapperSortList">
+                            <a href="#"><i class="fa-solid fa-bars-sort category--icon"></i></a>
+                            <p class="categoryWrapperSortList__title">Shop by Category</p>
+                        </div>
+                        <div class="categoryWrapperSearchArea">
+                            <input type="text" class="categoryWrapperSearchArea__box" placeholder="Search Products">
+                            <a href="#"><i class="fa-sharp fa-solid fa-magnifying-glass categoryWrapperSearchArea__icon category--icon"></i></a>
+                        </div>
+                        <div class="categoryWrapperBuyer">
+                            <div class="categoryWrapperBuyer__user">
+                                <a href="#"><i class="fa-solid fa-user category--icon"></i></a>
+                                <a href="#"><i class="fa-solid fa-caret-down category--icon"></i></a>
+                            </div>
+                            <div class="categoryWrapperBuyer__cart">
+                                <a href="#"><i class="fa-sharp fa-solid fa-cart-shopping category--icon"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- =================================Category-Markup================================= -->
 
 
 
     <!-- =================================Hero-Markup================================= -->
-
+    <section id="hero">
+        <div class="overlayBackround">
+            <img src="./images/Banner__image.png" alt="./images/Banner__image.png" class="w-100 img-fluid">
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="heroWrapper">
+                        <div class="heroWrapperNavigator">
+                            01
+                        </div>
+                        <div class="heroWrapperContent">
+                            <h2 class="heroWrapperContent__title">
+                                Final Offer
+                            </h2>
+                            <p class="heroWrapperContent__summary">
+                                Up to <span class="summary--bold">50%</span> sale for all furniture items!
+                            </p>
+                            <button class="heroWrapperContent__btn">Shop Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- =================================Hero-Markup================================= -->
 
 
@@ -152,6 +235,8 @@
 
 
     <!-- =================================NewArrivals-Markup================================= -->
+
+
 
     <!-- =================================NewArrivals-Markup================================= -->
 
