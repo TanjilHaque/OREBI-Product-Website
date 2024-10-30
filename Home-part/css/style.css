@@ -6,7 +6,7 @@
     --whiteColor: rgba(255, 255, 255, 1);
     --creamColor: rgba(245, 245, 243, 1);
     --lightTextColor: rgba(109, 109, 109, 1);
-    --greyTextColor: rgba(118, 118, 118, 1);
+    --greyTextColor: rgba(118, 118, 118, 1); 
 }
 
 * {
@@ -554,13 +554,149 @@ i[class="fa-sharp fa-solid fa-cart-shopping"]
 
 
 /* ===================================PhoneOfTheYear CSS====================================== */
+.PhoneOfTheYearContent_overlay{
+  
+    width: 50%;
+    height: 100%;
+    position:absolute;
+    background-color: transparent;
+    top: 0px;
+    transition: ease-in-out .3s;
+    visibility: visible;
+    padding-left:42%;
+}
+
+
+
+.PhoneOfTheYearContent{
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+
+}
+
+
+
+.PhoneOfTheYearImageWrapper{
+    position: relative;
+}
+  
+.PhoneOfTheYear_title{ 
+
+    font-family: var(--dmSans);
+    font-size: 39px;
+    font-weight:700;
+    line-height: 51px;
+    color:var(--blackColor);
+    width: 330px;
+    height: 51px;
+
+
+}
+
+.PhoneOfTheYear_summary{
+
+    font-family: var(--dmSans);
+    font-size: 16px;
+    font-weight:400;
+    line-height: 30px;
+    color:var(--lightTextColor);
+    width: 510.47px;
+    height: 60px;
+
+}
+
+.PhoneOfTheYear_btn{
+
+    width: 184.81px;
+    height: 50px;
+    background-color: var(--blackColor);
+    color: var(--whiteColor);
+
+
+}
 
 /* ===================================PhoneOfTheYear CSS====================================== */
 
 
 
 /* ===================================SpecialOffers CSS====================================== */
+.SpecialOffers{
+    padding: 100px 0;
+    
+}
+.SpecialOffersTopTitle__text{
+    display: flex;
+    align-items: start;
 
+
+}
+
+
+.ImageCard{
+   max-width:376px;
+   max-height:376px;
+   position: relative;
+}
+
+
+.Text{
+    
+    font-size: 39px;
+    font-family:var(--dmSans);
+    font-weight: 700;
+    line-height: 51px;
+}
+
+.ImageCardContent_text{
+    font-family: var(--dmSans);
+    font-size: 20px;
+    font-weight:700;
+    line-height: 26px;
+    color:var(--blackColor);
+}
+
+.ImageCardContent_price{
+
+    font-family: var(--dmSans);
+    font-size: 16px;
+    font-weight:400;
+    line-height: 30px;
+    color:var(--greyTextColor);
+
+}
+
+.ImageCardContent_color{
+   
+    font-family: var(--dmSans);
+    font-size: 16px;
+    font-weight:400;
+    line-height: 30px;
+    color:var(--greyTextColor);
+
+}
+
+.overlay_content{
+    width: 91.9px;
+    height: 35px;
+    background-color: var(--blackColor);
+    color:var(--whiteColor);
+   
+
+}
+
+.overlay{
+    width: 100%;
+    height: 50%;
+    position:absolute;
+    background-color: transparent;
+    top: 0px;
+    left: 0px;
+    transition: ease-in-out .3s;
+    visibility: visible;
+    padding-top: 20px;
+    padding-left:20px;
+}
 /* ===================================SpecialOffers CSS====================================== */
 
 
