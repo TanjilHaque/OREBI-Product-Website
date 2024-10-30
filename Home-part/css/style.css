@@ -107,9 +107,6 @@ html{
 
 
 .PhoneOfTheYearImageWrapper{
-    display: flex;
-    flex-direction: row;
-    column-gap: 20px;
     position: relative;
 }
   
@@ -160,7 +157,7 @@ html{
 .SpecialOffersTopTitle__text{
     display: flex;
     align-items: start;
-    margin-top: 128px;
+
 
 }
 
