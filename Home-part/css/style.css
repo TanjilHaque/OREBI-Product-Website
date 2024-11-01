@@ -702,5 +702,46 @@ i[class="fa-sharp fa-solid fa-cart-shopping"]
 
 
 /* ===================================Footer CSS====================================== */
+footer{
+    padding: 128px 0;
+    background-color: #FFFFFF;
+}
+.MinTilte{
+    size: 16px;
+    font-weight: 700;
+    font-family: var(--dmSans);
+    line-height: 23px;
+}
+.TitleList__from{
+    color: var(--blackColor);
+}
+.TitleList{
+   padding-left: 0;
 
+}
+.SubTitle{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--dmSans);
+    line-height: 23px;
+}
+.Summary{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--dmSans);
+    line-height: 23px;
+    margin-top:10px;
+}
+.SubSummary{
+justify-self: start;
+font-size: 16px;
+font-weight: 400;
+font-family: var(--dmSans);
+
+}
+.FooterIcon{
+    display: flex;
+    column-gap: 10px;
+    padding-left: 0;
+}
 /* ===================================Footer CSS====================================== */
